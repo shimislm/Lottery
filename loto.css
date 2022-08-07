@@ -1,0 +1,19 @@
+.container{
+    max-width: 750px;
+    min-height: 350px;
+    border-radius: 30%;
+    border: 1px black solid;
+}
+@media(max-width:768px){
+    .container{
+        min-height: 350px;
+    }
+    #id_ball{
+        width: 15px;
+        height: 15px;
+        font-size: 0.8em;
+        margin-right: 4px;
+        /* display: block; */
+        margin-bottom: 12px;
+    }
+}
